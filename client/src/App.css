@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.App {
+  /* display: grid;
+  grid-template-rows: 44px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas: "h h" "n c";
+  width: 100%;
+  margin: 0 auto; */
+}
+
+.main-wrapper {
+  grid-area: c;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+  /* background-color: lightcoral; */
+}
+
+.loginPage {
+  /* background: rgb(58,175,169);
+background: radial-gradient(circle, rgba(58,175,169,1) 0%, rgba(222,242,241,1) 100%); */
+/* background: rgb(58,175,169);
+background: radial-gradient(circle, rgba(58,175,169,0.7682423311121324) 0%, rgba(222,242,241,1) 100%); */
+background: rgb(58,175,169);
+background: radial-gradient(circle, rgba(58,175,169,0.6253851882549895) 0%, rgba(222,242,241,1) 100%);
+}
